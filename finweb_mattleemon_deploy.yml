@@ -4,7 +4,7 @@ variables:
   - name: projectName
     value: 'Training-Student-015'
   - name: buildPipelineName
-    value: 'finweb_mattleemon_build.yml'
+    value: 'finweb_mattleemon_build'
   - name: artifactName
     value: 'frontend'
   - name: targetFile
