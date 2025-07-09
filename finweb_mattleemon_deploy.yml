@@ -2,17 +2,17 @@ trigger: none
 
 variables:
   - name: projectName
-    value: 'Training-Student-015'            # <-- Update this
+    value: 'Training-Student-015'
   - name: buildPipelineName
-    value: 'finweb_mattleemon_build.yml'          # <-- Update this
+    value: 'finweb_mattleemon_build.yml'
   - name: artifactName
-    value: 'frontend'        
+    value: 'frontend'
   - name: targetFile
-    value: 'app.py'                             # Optional: Which file inside artifact to display
+    value: 'app.py'
   - name: resourceGroup
-    value: 'Training-Student-015'        # <-- Update this
+    value: 'Training-Student-015'
   - name: webAppName
-    value: 'finweb-mattleemon'                # <-- Update this Azure Web App target
+    value: 'finweb-mattleemon'
 
 steps:
 - script: |
